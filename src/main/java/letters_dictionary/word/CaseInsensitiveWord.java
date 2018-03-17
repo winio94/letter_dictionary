@@ -1,8 +1,8 @@
-package letters_dictionary;
+package letters_dictionary.word;
 
 import java.util.Objects;
 
-public class CaseInsensitiveWord {
+public class CaseInsensitiveWord implements Word {
     private final String word;
     private final String upperCaseWord;
 
@@ -16,6 +16,7 @@ public class CaseInsensitiveWord {
         this(word, word.toUpperCase());
     }
 
+    @Override
     public String value() {
         return word;
     }
