@@ -1,10 +1,8 @@
-package letters_dictionary;
+package letters_dictionary.word;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
-import letters_dictionary.word.CaseInsensitiveWord;
 
 public class CaseInsensitiveWordTest {
 

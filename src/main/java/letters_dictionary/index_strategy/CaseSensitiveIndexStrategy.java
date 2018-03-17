@@ -1,7 +1,3 @@
-// Copyright 2018 Motorola Solutions, Inc.
-// All rights Reserved.
-// Motorola Solutions Confidential Restricted
-
 package letters_dictionary.index_strategy;
 
 import java.util.List;
