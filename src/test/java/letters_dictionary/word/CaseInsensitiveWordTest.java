@@ -2,9 +2,18 @@ package letters_dictionary.word;
 
 import static org.junit.Assert.assertEquals;
 
+import java.util.Objects;
+
 import org.junit.Test;
 
 public class CaseInsensitiveWordTest {
+
+    @Test
+    public void wordShouldHaveSameHashcodeAsWrappedUppercaseString() {
+        CaseInsensitiveWord word1 = new CaseInsensitiveWord("abcd");
+
+        assertEquals(word1.hashCode(), Objects.hash("ABCD"));
+    }
 
     @Test
     public void twoWordsHavingSameLettersShouldBeEqual() {
