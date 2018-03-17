@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import letters_dictionary.word.CaseInsensitiveWord;
+
 public class CaseInsensitiveWordTest {
 
     @Test
@@ -23,5 +25,4 @@ public class CaseInsensitiveWordTest {
         assertEquals(word1, word2);
         assertEquals(word1.hashCode(), word2.hashCode());
     }
-
 }
