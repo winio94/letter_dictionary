@@ -1,6 +1,4 @@
-package letters_dictionary;// Copyright 2018 Motorola Solutions, Inc.
-// All rights Reserved.
-// Motorola Solutions Confidential Restricted
+package letters_dictionary;
 
 public class Main {
     public static void main(String[] args) {
